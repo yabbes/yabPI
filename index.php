@@ -11,31 +11,43 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
+<!-- top nav bar -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="">yabPI</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="">Home</a></li>
+        <li><a href="files/">Files</a></li>
+      </ul>
+    </div>
+  </nav>
 
 <!-- Header -->
-<div class="jumbotron text-center">
+<div class="header jumbotron text-center">
   <h1>yabPI</h1>
   <p>Serveur qui runne sur mon Raspberry Pi</p>
 </div>
 
-<!-- Main content -->
+<!-- Main content
 <div class="jumbotron maincontent">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-sm-6">
         <h3>Column 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+        <p>
+          lien vers mes files
+        </p>
       </div>
-      <div class="col-md-6">
+      <div class="col-sm-6">
         <h3>Column 2</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
       </div>
     </div>
   </div>
-
 </div>
+-->
+
 
 <!-- Footer -->
 <div class="jumbotron footer">
