@@ -30,7 +30,7 @@
   <p>Serveur qui runne sur mon Raspberry Pi</p>
 </div>
 
-<!-- Main content
+<!-- if main content was to be added
 <div class="jumbotron maincontent">
   <div class="container">
     <div class="row">

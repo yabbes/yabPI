@@ -8,6 +8,7 @@ def loopCheck():
         uptime_string = os.popen('uptime').read()
         formatted_df_string = parse_df_string()
         extra_info = get_extra_info()
+        # edit this line to fit your file system
         f = open("/home/yabbes/www/status.php", "w")
         f.write("<?php "
                 "$uptime = trim(\"{}\");"
